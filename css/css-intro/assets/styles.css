@@ -1,0 +1,33 @@
+body{
+    background-color: antiquewhite;       
+}
+h1{
+    font-family: 'Raleway', sans-serif;  
+    font-size: 72px;
+    color: cadetblue;
+    text-align: center;
+
+}
+.titulo_texto{
+    font-family: 'Jost', sans-serif;
+    color:rgb(46, 76, 110); 
+    font-size: 2em;
+    text-align: center;
+}
+
+#texto_id_01{
+    text-align: left;
+}
+
+.texto{
+    text-align: right;
+}
+
+
+p{
+    font-family: 'Vollkorn', serif;
+    color: rgb(175, 37, 37); 
+    font-size: 1.5em;
+    text-align: justify;
+    font-style: italic;
+}

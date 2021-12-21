@@ -1,0 +1,32 @@
+body{
+    background-color: #2d8652;
+}
+
+h1{
+    font-size: 3em;
+    text-transform: capitalize;
+    font-family: "Arial";
+}
+
+.texto{
+    font-size: 1.3em;
+    text-align: left;
+}
+
+.cursiva-blanca{
+    color: white;
+    font-family: "Georgia";
+    font-style: italic;
+}
+.normal-crema{
+    color: #ffdfb3;
+    font-family: "Arial";
+}
+.consolas-naranja{
+     color: #ff9f1a;
+     font-family: "consolas";
+}
+.comic-rojo{
+    color:red;
+    font-family: "Comic Sans MS";
+}

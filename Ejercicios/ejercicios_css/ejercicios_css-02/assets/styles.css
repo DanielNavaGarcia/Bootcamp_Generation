@@ -1,0 +1,50 @@
+body{
+    background-color: #c6d9ee;
+}
+
+h1{
+    font-size: 3em;
+    text-transform: capitalize;
+    font-family: "Arial";
+    text-align: right;
+}
+
+.comic{
+    color:red;
+    font-family: "Comic Sans MS";    
+}
+
+.titulo{
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: "Arial";
+    font-weight: bold;
+}
+.titulo-inicial{
+    font-size: 1.8em;
+}
+
+
+.texto{
+    text-indent: 40px;
+    font-size: 1.3em;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-naranja{
+    color: #d2691e;
+    font-weight: bold;
+}
+
+.texto-anio{
+    color: #f59c5e;
+}
+
+.texto-verde{
+    color: #598810;
+    font-style: italic;
+    background-color: white;
+
+}
+
