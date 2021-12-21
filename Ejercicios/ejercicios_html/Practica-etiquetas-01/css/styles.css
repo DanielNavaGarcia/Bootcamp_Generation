@@ -1,0 +1,27 @@
+body{
+    color: white;
+    font-size: 1.2em;
+}
+
+.caja{
+    background-color: #008000;
+    width: 500px;
+    height: 400px;
+    border: 15px solid #b0c4de;
+    border-radius: 8px;
+    padding: 20px;    
+    margin-left: auto;
+
+}
+
+.campos{
+    padding-left: 40px;
+}
+
+.contenido{
+    text-align: center;
+    background-color: darkgray;
+    width: 300px;
+    float: right;
+}
+

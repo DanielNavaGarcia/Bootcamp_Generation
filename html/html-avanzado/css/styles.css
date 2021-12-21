@@ -1,0 +1,17 @@
+body{
+    font-size: larger;
+    background-color: antiquewhite;
+/*     font-family: 'Yuji Hentaigana Akari'; */
+}
+.formulario{
+    border: 1px solid black;
+}
+
+.clase-nombre{
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+#password{
+    border: 2px dashed blue;
+}
