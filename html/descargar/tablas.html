@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <!--
+        colspan se extiende por las columnas
+        rowspan se extienda por las filas
+    -->
+    <table>
+        <thead>
+            <tr><!--Crea una fila-->
+                <th><!--Crea una cabecera-->
+                    Cabecera
+                </th>
+                <th colspan="5">
+                    Cabecera
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">hola</td>
+                <td>adios</td>
+                <td>extra</td>
+            </tr>
+            <tr>              
+                <td rowspan="4">1</td>  
+                <td>extra</td>
+                
+            </tr>
+            <tr>                
+                <td>A</td>
+                <td>B</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>                
+                <td>final</td>
+                <td>de la </td>
+                <td>tabla</td>
+            </tr>            
+        </tfoot>
+    </table>
+
+</body>
+</html>
