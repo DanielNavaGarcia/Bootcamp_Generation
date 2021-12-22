@@ -1,0 +1,42 @@
+body{
+    background-color: #7fffd4;
+    text-transform: capitalize;
+}
+
+h1{
+    text-align: center;
+    text-transform: none;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+}
+
+
+.producto{
+    width: 200px;
+}
+
+.precio{
+    width: 150px;
+}
+
+.cantidad{
+    width: 100px;
+}
+
+.total{
+    width: 120px;
+}
+.naranja{
+    background-color: #d2691e;
+}
+
+.negro{
+    background-color: black;
+    color: black;
+}
+
+.verde{
+    background-color: #7fff00;
+}
