@@ -1,0 +1,40 @@
+body{
+    background-color: lightgray;
+}
+
+.titulo-principal{
+    text-align: center;
+}
+
+.contenido-principal{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* .contenido-principal article{
+    width: 80%;
+} */
+
+.contenido-principal .encabezado{
+    color: white;
+    background-color: gray;
+    padding: 5px 10px;
+}
+
+.contenido-principal .contenido{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contenido-principal .contenido-imagen{
+    float: left;
+}
+
+.contenido-principal .contenido-texto{
+    margin-left: 200px;
+}
+
+.contenido-principal .contenido-texto p{
+    text-indent: 20px;
+    text-align: justify;
+}
