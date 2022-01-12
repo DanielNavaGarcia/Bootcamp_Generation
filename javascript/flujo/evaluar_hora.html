@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluar hora</title>
+</head>
+<body>
+    <h1>
+        <p>Evaluar hora</p>
+    </h1>
+    <div>
+        <p>
+            <label for="hora">Hora</label>
+            <input type="text" name="hora" id="hora" placeholder="Escribe aqui la hora">
+        </p>
+        <p>
+            <button onclick="getHora(); document.getElementById('hora').value = '';">Inicio</button>
+        </p>
+    </div>
+    <p id="respuesta"></p>
+    <script src="assets/js/evaluar_hora.js"></script>
+</body>
+</html>
