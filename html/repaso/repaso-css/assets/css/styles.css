@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.menu{
+    background-color: #e48b8b;
+    height: 50px;
+
+}
+
+.menu ul{ /* Busca un elemento dentro del menu que a su vez sea una etique ul */
+    width: 800px;
+    margin: 0 auto; /* Centrar elementos horizontalmente*/
+}
+
+.elemento{
+    display: inline;
+    margin: 0 20px;
+}
+
+.elemento a{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    line-height: 50px; /* Esto centra verticalmente el elemento */
+
+    transition-duration: 1s;
+
+}
+
+
+.elemento a:hover{
+
+    color: grey;
+    font-size: 30px;
+
+}

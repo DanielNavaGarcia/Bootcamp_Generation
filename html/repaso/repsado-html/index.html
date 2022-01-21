@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Repaso HTML
+    </h1>
+    <h2 id="subtitulo">
+        Formularios
+    </h2>
+    <form>
+        <fieldset>
+            <legend>
+                Datos
+            </legend>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text" placeholder="Ingrese su nombre">
+            </div>
+            <div>
+                <label for="apellido">Apellido</label>
+                <input id="apellido" name="apellido" type="text" placeholder="Ingrese su apellido">
+            </div>
+            <div>
+                <label for="comentario">Comentario</label>
+                <textarea name="comentario" id="comentario" cols="10" rows="5" placeholder="Type your message" maxlength="1500" ></textarea>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+            <div>
+                <input type="button" value="Enviar">
+            </div>
+        </fieldset>
+    </form>
+    <h2>
+        Tablas
+    </h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Costo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Queso</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Jamon</td>
+                <td>24</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>44</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!-- inline en linea -->
+    <a class="enlace" target="_blank" href="servicios.html">Enlance</a>
+    <a class="enlace" target="_blank" href="servicios.html">Enlance</a>
+
+    <span>Este es un span</span>
+    <!-- block en bloque -->
+    <p id="bloque">Este es un parrafo</p>
+    <h2 id="bloque">Subtitulo</h2>
+    <div id="bloque">Este es un div</div>
+
+    <a href="servicios.html">
+        <img src="awa" alt="perrito" width="300">
+    </a>
+
+    <a href="#subtitulo">Ir arriba</a>
+</body>
+</html>
