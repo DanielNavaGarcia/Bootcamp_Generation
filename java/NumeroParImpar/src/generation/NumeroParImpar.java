@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class NumeroParImpar {
 	public static void main(String[] args) {
-	
+		//owo
 		Scanner sc = new Scanner(System.in);
 		int numero = sc.nextInt();	
 		sc.close();
