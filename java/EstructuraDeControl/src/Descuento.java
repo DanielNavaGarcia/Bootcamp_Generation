@@ -9,8 +9,9 @@ import java.util.Scanner;
 public class Descuento {
 	public static void main(String[] args) {
 		System.out.println("El total fue de: ");
-		Scanner scanner = new Scanner(System.in);
-		double cuenta = scanner.nextInt();
+		Scanner sc = new Scanner(System.in);
+		double cuenta = sc.nextInt();
+		sc.close();
 
 
 		

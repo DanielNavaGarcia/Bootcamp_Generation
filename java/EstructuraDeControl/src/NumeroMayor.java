@@ -7,7 +7,7 @@ public class NumeroMayor {
 		 * Pedir 3 números al usuario y mostrar un mensaje con el número mayor
 		 */
 
-		int cantidadDeNumeros = 3;
+		int cantidadDeNumeros = 20;
 		int[] numeros = new int[cantidadDeNumeros];
 		
 		Scanner sc = new Scanner(System.in);
@@ -16,6 +16,7 @@ public class NumeroMayor {
 		for (int i = 0; i < cantidadDeNumeros; i++) {
 			numeros[i] = sc.nextInt();
 		}
+		sc.close();
 		System.out.println(Arrays.toString(numeros));
 
 		int numeroMasGrande = numeros[0]; //El numero mas grande hasta el indice 0, es el propio indice 0
