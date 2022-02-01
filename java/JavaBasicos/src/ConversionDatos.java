@@ -1,5 +1,6 @@
 
 public class ConversionDatos {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		byte numeroByte = 10;
 		short numeroShort = numeroByte;

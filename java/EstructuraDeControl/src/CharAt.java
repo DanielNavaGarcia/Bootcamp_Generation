@@ -7,16 +7,8 @@ public class CharAt {
 		String palabra = sc.nextLine();
 		sc.close();
 
-		char c;
-
 		for (int i = 0; i < palabra.length(); i++) {
-			c = palabra.charAt(i);
-			System.out.println(c);
-
-
+			System.out.println(palabra.charAt(i));
 		}
-
-
-
 	}
 }
